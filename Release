@@ -1,17 +1,25 @@
-Date: Sat, 24 Jan 2026 15:36:32 +0000
+Origin: BingLan Repo
+Label: BingLan Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64
+Components: main
+Description: BingLan Sileo Repository
+Date: Sat, 24 Jan 2026 15:54:30 +0000
 MD5Sum:
  4806a8987af49e314fbccf44d4c07e5d              712 Packages
- 86e0729f9bf1c939c4ed5af4f31f8b9c              472 Packages.gz
- 88699eb524ce7bede293125b0bfc50e4               38 Release
+ 642b4f11f7e3bf01ab57f947d27655f4              472 Packages.gz
+ c6244edad32fe9540a266dd062be6a1a             1204 Release
 SHA1:
  4bc3a1ae5489d2d6bbf2cc845fc1d2fccd822c0b              712 Packages
- fb1ce8cebd0ef6747cc9844a59a63f887c66dfe6              472 Packages.gz
- 485a642f284f19cbad7560e3e2763852dddf643b               38 Release
+ 975c43ece63dc65e904476b04b3c6332fc9d491f              472 Packages.gz
+ c48be8f66ed95e08c15c904948100a8e0027c63c             1204 Release
 SHA256:
  91dc4ea122ed30d12b56b2db135e1b46c7ea6f596bbc676bd1ede127fa442d41              712 Packages
- d0915ae9678459e52b74d7c5ccd1aee1d8f30cdbce82679b9d159351ca68b148              472 Packages.gz
- afb3f5ccdda9f7e80b4538423c70520118d930c8a6e90080396fe4a780f2fe72               38 Release
+ 0037bcbaefa7d8fca0ba41341387cf51daeb1b591394ce69b5cbbb9b712c365f              472 Packages.gz
+ 9a4821914d816dfb1ffc2bf93605c6b1374a937c94f86f57321a5852a309b1ee             1204 Release
 SHA512:
  4c4f14c05d764dab27d3b438a3fc91c5a48aba9157ff7c2736e2bc546f7a12303cd8b4d19c9c377ec739b3baabaded9fee7aa8cd9e85694b31a3e8bcc3e6065a              712 Packages
- a178e30c5ab7ed0dacbbc893d31b80116815a64314eb323be5918661c6c1d5ae5bcd4d0028defa28d4bf0b60eb2df0aed6537e99f39ae0b2c1f5b17b2048e1d9              472 Packages.gz
- 170ed532e2e115f28fe95b508cc9df5077ee247e2778540f4f37e59e71498388ad2d118982499a674a9f4bcfdf09fda6e439bef6c36bf1e359301232e7ae8a28               38 Release
+ dca3740866449c029f315fdf9ab464dd4a8dcbddd5a4d12738b778f2f7b1e7e21854ceabb31caedbf4fc4e53b016b0064f65dc9c70c8f80c3f466fb98671c4ee              472 Packages.gz
+ ed38b5c230a4a26d66411a63699dd0fecd1fb31caa34620674a007461d3842afa3561b2b63cec32c24352af9c1548026c31a0e21f4bd67bd9f6355c89c45a04c             1204 Release
