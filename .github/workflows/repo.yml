@@ -30,10 +30,22 @@ jobs:
 
       - name: Generate Release (Sileo compatible)
         run: |
+          # 先生成校验和块（Date/MD5/SHA...）
           apt-ftparchive release . > Release.checksums
 
-          printf "Origin: BingLan Repo\nLabel: BingLan Repo\nSuite: stable\nVersion: 1.0\nCodename: ios\nArchitectures: iphoneos-arm64\nComponents: main\nDescription: BingLan Sileo Repository\n" > Release
+          # 再生成真正给 Sileo 用的 Release 头部（一定要有 Architectures）
+          cat > Release << 'EOF'
+Origin: BingLan Repo
+Label: BingLan Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64
+Components: main
+Description: BingLan Sileo Repository
+EOF
 
+          # 把校验和追加到 Release 后面（更标准）
           cat Release.checksums >> Release
           rm -f Release.checksums
 
