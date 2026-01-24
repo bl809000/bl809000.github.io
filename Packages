@@ -1,0 +1,52 @@
+Package: com.binglan.wechat-fst
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: binglan
+Depends: firmware (>= 15.0), mobilesubstrate | ellekit
+Filename: debs/微信防闪退补丁.deb
+Size: 5436
+MD5sum: f3a0469237da50ff9a58e8a3a8097ee2
+SHA1: c1aad8fd7020dbc5cf8f7ba3849e17bcbe9f75e9
+SHA256: daa7112dc68c3d221849631ef78c581a0af91e9809e480a561e82ffc6200bca8
+Section: Tweaks
+Description: 神秘功能。
+Name: 微信防闪退补丁
+
+Package: xyz.cypwn.picturemodule
+Version: 1.2k
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (>= 12.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.4nni3.picturemodule
+Filename: debs/picturemodule控制中心视频模块iphoneos-arm64.deb
+Size: 6273672
+MD5sum: 9fda29f2c97f0f76e3a85f012cd39678
+SHA1: 25413a8875775628fb97e968f827226db67fdd91
+SHA256: 4647cc0ee4f0f485e44d15c0e43cf2a6a75f07302f71bc23a390c4be066125cc
+Section: Tweaks
+Description: Decorate your control center with photos, videos and widgets!
+Author: 4nni3
+Depiction: https://repo.cypwn.xyz/depiction/3246
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/picturemodel.png
+Name: PictureModule
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3246
+
+Package: xyz.cypwn.picturemodule
+Version: 1.2k
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (>= 12.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.4nni3.picturemodule
+Filename: debs/picturemodule_arm64.deb
+Size: 6273672
+MD5sum: 9fda29f2c97f0f76e3a85f012cd39678
+SHA1: 25413a8875775628fb97e968f827226db67fdd91
+SHA256: 4647cc0ee4f0f485e44d15c0e43cf2a6a75f07302f71bc23a390c4be066125cc
+Section: Tweaks
+Description: Decorate your control center with photos, videos and widgets!
+Author: 4nni3
+Depiction: https://repo.cypwn.xyz/depiction/3246
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/picturemodel.png
+Name: PictureModule
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3246
+
