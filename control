@@ -1,0 +1,9 @@
+Package: com.binglan.wechathook
+Name: 微信时间渐变色
+Version: 1.0.0
+Architecture: iphoneos-arm
+Section: Tweaks
+Maintainer: binglan
+Author: binglan
+Description: 无设置项，安装即生效。
+Depends: mobilesubstrate, firmware (>= 15.0)
