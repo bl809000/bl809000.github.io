@@ -13,19 +13,6 @@ Description: 恭喜你来到彩蛋界面！愿你的每一天都充满阳光，�
 Author: 冰蓝
 Name: 哈喽！
 
-Package: com.blblt.repo
-Version: 1.0
-Architecture: all
-Maintainer: blblt
-Filename: debs/BingLanRepoInfo_1.0_all.deb
-Size: 716
-MD5sum: cd6c365188aea0abde1f4b1620bad685
-SHA1: 805d576db5b399882656c55c113478d46254b4d7
-SHA256: 3b65ddab1ba20f6a5e0050b230308842a59ffc44416721bc0037b941649a9e89
-Section: Repositories
-Description: This is a repo info package used for the banner. Do not install.
-Name: BingLan Repo
-
 Package: com.liuf.zfk
 Version: 1.0.0
 Architecture: iphoneos-arm64
