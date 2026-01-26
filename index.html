@@ -1,9 +1,210 @@
 <!doctype html>
-<html>
-<head><meta charset="utf-8"><title>blblt Repo</title></head>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0ea5e9" />
+  <title>冰蓝自用备份</title>
+  <style>
+    :root{
+      --bg:#0b1220;
+      --card:#0f1a2e;
+      --text:#e6edf7;
+      --muted:#9fb0cc;
+      --accent:#22c1ff;
+      --accent2:#22c55e;
+      --line:rgba(255,255,255,.08);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+      background: radial-gradient(800px 500px at 20% 0%, rgba(34,193,255,.20), transparent 55%),
+                  radial-gradient(900px 600px at 80% 20%, rgba(34,197,94,.14), transparent 60%),
+                  var(--bg);
+      color:var(--text);
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:22px;
+    }
+    .wrap{
+      width:min(920px,100%);
+    }
+    .card{
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03));
+      border:1px solid var(--line);
+      border-radius:18px;
+      overflow:hidden;
+      box-shadow: 0 20px 70px rgba(0,0,0,.35);
+      backdrop-filter: blur(10px);
+    }
+    .banner{
+      width:100%;
+      aspect-ratio: 16/6;
+      background:#111827;
+      position:relative;
+      overflow:hidden;
+    }
+    .banner img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      display:block;
+      filter:saturate(1.05) contrast(1.05);
+    }
+    .head{
+      display:flex;
+      gap:16px;
+      padding:18px 18px 14px 18px;
+      align-items:center;
+      border-bottom:1px solid var(--line);
+    }
+    .icon{
+      width:56px;height:56px;border-radius:14px;
+      background:rgba(255,255,255,.06);
+      border:1px solid var(--line);
+      overflow:hidden;
+      flex:0 0 auto;
+    }
+    .icon img{width:100%;height:100%;object-fit:cover;display:block}
+    .title{
+      display:flex;flex-direction:column;gap:4px;
+      min-width:0;
+    }
+    .title h1{
+      font-size:18px;margin:0;line-height:1.15;
+      letter-spacing:.2px;
+      white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+    }
+    .title p{
+      margin:0;
+      color:var(--muted);
+      font-size:13px;
+      line-height:1.35;
+    }
+    .body{
+      padding:16px 18px 18px 18px;
+      display:grid;
+      grid-template-columns: 1fr;
+      gap:14px;
+    }
+    .btns{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+      padding:11px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      color:var(--text);
+      border:1px solid var(--line);
+      background: rgba(255,255,255,.05);
+      transition:.15s transform ease, .15s background ease, .15s border ease;
+      font-weight:600;
+      font-size:14px;
+    }
+    .btn:hover{transform:translateY(-1px);background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.14)}
+    .btn.primary{
+      background: linear-gradient(135deg, rgba(34,193,255,.30), rgba(34,193,255,.12));
+      border-color: rgba(34,193,255,.35);
+    }
+    .btn.green{
+      background: linear-gradient(135deg, rgba(34,197,94,.28), rgba(34,197,94,.10));
+      border-color: rgba(34,197,94,.35);
+    }
+    code{
+      background: rgba(0,0,0,.35);
+      border:1px solid var(--line);
+      padding:2px 6px;
+      border-radius:8px;
+      font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;
+      font-size: 12px;
+      color: #dbeafe;
+    }
+    .info{
+      border:1px solid var(--line);
+      background: rgba(0,0,0,.20);
+      border-radius:14px;
+      padding:14px;
+      color:var(--muted);
+      font-size:13px;
+      line-height:1.55;
+    }
+    .footer{
+      padding:12px 18px 16px 18px;
+      color:rgba(159,176,204,.65);
+      font-size:12px;
+      text-align:center;
+    }
+    .small{
+      font-size:12px;
+      color:rgba(159,176,204,.85);
+    }
+  </style>
+</head>
+
 <body>
-<h2>blblt Sileo Repo</h2>
-<p>Repo URL:</p>
-<code>https://blblt.github.io/binglan/</code>
+  <div class="wrap">
+    <div class="card">
+
+      <!-- 顶部横幅（你仓库里 assets/banner.jpg） -->
+      <div class="banner">
+        <img src="assets/banner.jpg" alt="banner">
+      </div>
+
+      <!-- 标题 + 图标（你仓库里 CydiaIcon.png） -->
+      <div class="head">
+        <div class="icon">
+          <img src="CydiaIcon.png" alt="icon">
+        </div>
+        <div class="title">
+          <h1>冰蓝自用备份</h1>
+          <p>仅自用备份源 · 请勿长期添加（需要用时再加）</p>
+        </div>
+      </div>
+
+      <div class="body">
+
+        <!-- 一键添加到 Sileo -->
+        <div class="btns">
+          <a class="btn primary" href="sileo://source/https://binglan8090.github.io/binglan/">
+            ➕ 一键添加到 Sileo
+          </a>
+          <a class="btn green" href="https://binglan8090.github.io/binglan//">
+            🌐 打开源地址
+          </a>
+          <a class="btn" href="https://binglan8090.github.io/binglan/Packages">
+            📄 Packages
+          </a>
+          <a class="btn" href="https://binglan8090.github.io/binglan/Packages.gz">
+            📦 Packages.gz
+          </a>
+        </div>
+
+        <div class="info">
+          <div>源地址：</div>
+          <div style="margin-top:6px">
+            <code>https://binglan8090.github.io/binglan/</code>
+          </div>
+          <div style="margin-top:10px" class="small">
+            如果你是第一次使用：打开 Sileo → 软件源 → “+” → 粘贴上面地址 → 添加即可。
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer">
+        Powered by GitHub Pages · BingLan Repo
+      </div>
+
+    </div>
+  </div>
 </body>
 </html>
