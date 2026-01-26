@@ -1,0 +1,19 @@
+Package: xyz.cypwn.picturemodule
+Version: 1.2k
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (>= 12.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.4nni3.picturemodule
+Filename: debs/picturemodule.deb
+Size: 6273672
+MD5sum: 9fda29f2c97f0f76e3a85f012cd39678
+SHA1: 25413a8875775628fb97e968f827226db67fdd91
+SHA256: 4647cc0ee4f0f485e44d15c0e43cf2a6a75f07302f71bc23a390c4be066125cc
+Section: Tweaks
+Description: Decorate your control center with photos, videos and widgets!
+Author: 4nni3
+Depiction: https://repo.cypwn.xyz/depiction/3246
+Icon: https://repo.cypwn.xyz/assets/repo/Featured/picturemodel.png
+Name: PictureModule
+Sileodepiction: https://repo.cypwn.xyz/sileo_depiction/3246
+
