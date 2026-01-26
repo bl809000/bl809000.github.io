@@ -1,5 +1,6 @@
 {
-  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "minVersion": "0.4",
   "headerImage": "https://i.imgs.ovh/2026/01/27/yeqj2g.jpeg",
   "tintColor": "#0ea5e9",
   "tabs": [
