@@ -1,3 +1,18 @@
+Package: com.binglan.8090
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 冰蓝
+Depends: firmware (>= 16.0)
+Filename: debs/com.binglan.8090_0.0.1_iphoneos-arm64.deb
+Size: 936
+MD5sum: 7660f6d3ea4f916f1ff4bb7c4d138f28
+SHA1: 713df9c66cefc81f51c2385dc3a93c349e553758
+SHA256: d2eee0fad2a09fdb9a2b016c41851e10e1ce075ee916acd65935fec310a6a444
+Section: Tweaks
+Description: 愿你的每一天都充满阳光，每一刻都洋溢幸福，每一分都满载希望，每一秒都充满微笑。祝福你，生活美满，快乐无限！
+Author: 冰蓝
+Name: 恭喜你来到彩蛋界面
+
 Package: com.blblt.repo
 Version: 1.0
 Architecture: all
