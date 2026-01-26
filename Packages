@@ -12,6 +12,7 @@ Section: Tweaks
 Description: 恭喜你来到彩蛋界面！愿你的每一天都充满阳光，每一刻都洋溢幸福，每一分都满载希望，每一秒都充满微笑。祝福你，生活美满，快乐无限！
 Author: 冰蓝
 Name: 哈喽！
+SileoDepiction: https://binglan8090.github.io/binglan/sileo-depiction/com.binglan.8090.json
 
 Package: com.liuf.zfk
 Version: 1.0.0

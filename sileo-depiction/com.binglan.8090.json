@@ -1,0 +1,17 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://i.imgs.ovh/2026/01/27/yeqj2g.jpeg",
+  "tintColor": "#0ea5e9",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "详情",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## 哈喽！\n\n恭喜你来到彩蛋界面！愿你的每一天都充满阳光，每一刻都洋溢幸福，每一分都满载希望，每一秒都充满微笑。祝福你，生活美满，快乐无限！"
+        }
+      ]
+    }
+  ]
+}
