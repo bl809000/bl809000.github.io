@@ -4,14 +4,14 @@ Architecture: iphoneos-arm64
 Maintainer: 冰蓝
 Depends: firmware (>= 16.0)
 Filename: debs/com.binglan.8090_0.0.1_iphoneos-arm64.deb
-Size: 936
-MD5sum: 7660f6d3ea4f916f1ff4bb7c4d138f28
-SHA1: 713df9c66cefc81f51c2385dc3a93c349e553758
-SHA256: d2eee0fad2a09fdb9a2b016c41851e10e1ce075ee916acd65935fec310a6a444
+Size: 948
+MD5sum: b5b0415296737dcdb5318f37257eb5a2
+SHA1: 3934fc8560039132c2c10ab749c69889a8944ba1
+SHA256: be0ed7fc07cb3c30daecea6e17e0977bf98e13158b1388fb841ddcb2918d15df
 Section: Tweaks
-Description: 愿你的每一天都充满阳光，每一刻都洋溢幸福，每一分都满载希望，每一秒都充满微笑。祝福你，生活美满，快乐无限！
+Description: 恭喜你来到彩蛋界面！愿你的每一天都充满阳光，每一刻都洋溢幸福，每一分都满载希望，每一秒都充满微笑。祝福你，生活美满，快乐无限！
 Author: 冰蓝
-Name: 恭喜你来到彩蛋界面
+Name: 哈喽！
 
 Package: com.blblt.repo
 Version: 1.0
