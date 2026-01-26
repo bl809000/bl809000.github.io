@@ -24,7 +24,8 @@ Size: 15484
 MD5sum: 60613110f236da300ae0ab96e66682a3
 SHA1: e5847c1617eb08f7a7d34b8af8c1f9f2ce7d8fe8
 SHA256: 1cc44252a9b89f601e23aa9a0ca30371dc97ba3077a0fbc6950768c7ac4c15b8
-Section: Tweaks
+Section: 系统美化
+Priority: 0
 Description: 将控制中心主副卡显示为自己喜欢的图片 可自定义 有设置项可自定义高低上下!
 Author: liuf <1602389262>
 Name: Liuf's 主副卡
@@ -151,7 +152,8 @@ Size: 9468
 MD5sum: 84b75ebb7edcb7a93e983ebdf99c00a0
 SHA1: 701fc4ee572891de8915d37b12d7377a446a9c4c
 SHA256: 80747b738f077a213b4b972d8f1462ae3a2ed676a4041608b9b2793d02910f1f
-Section: Tweaks
+Section: 系统美化
+Priority: 0
 Description: 给图标添加一层阴影图片!
 Author: zqbb
 Name: Hello Shadow
