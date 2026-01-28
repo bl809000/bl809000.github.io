@@ -361,7 +361,7 @@ Size: 88046
 MD5sum: ccb8784555ec858e62ded0c7ede8e4c3
 SHA1: 138c0c8439a10d605079b96a95ac800ae79ddb2c
 SHA256: bbddeede3fb95eb69db9d851761521b3e862cb15d71c749ee2d5726f792c37aa
-Section: 插件
+Section: 系统美化
 Priority: 0
 Description: 控制中心的天气模块。 显示当前天气、温度和每小时预报。
 Author: simon
