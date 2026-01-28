@@ -498,6 +498,23 @@ Description: WXKeyboardUIHook
 Author: TiaoTiao
 Name: WXKeyboardUIHook
 
+Package: com.wkk.cccchook
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/去除链接模块背景.deb
+Size: 3952
+MD5sum: 9b07a5b6916c495074a89f0f09200dc3
+SHA1: 18cdcd64ce9826622a6a8536117cbab31e358efb
+SHA256: 42e3160f2ac85cf84db6c3b70b05144ae06ae2789326f25c09fe30adfc4f8512
+Section: 系统美化
+Priority: 0
+Description: An awesome MobileSubstrate tweak!
+Author: wkk
+Name: cccchook
+
 Package: com.wkk.flexloader
 Version: 5.25.19-1
 Architecture: iphoneos-arm64
