@@ -125,6 +125,22 @@ Description: 关于系统输入法和微信输入法的一些自定义，让键�
 Author: baiy
 Name: KeyboardHook
 
+Package: com.be-huge.floating-view
+Version: 1.5.9
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 3392
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: debs/floatingView.1.5.9.deb
+Size: 664308
+MD5sum: 8990c6487d32a1b093c7cab5bb071a3b
+SHA1: 3e4bb96bab86a5737b652d596e31f18a5e2fede3
+SHA256: 77810a9b70bea973a1d513fa894b74360b192a91c94c64c7b8205d1e79bfaada
+Section: Tweaks
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
+
 Package: com.binglan.8090
 Version: 0.0.1
 Architecture: iphoneos-arm64
