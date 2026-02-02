@@ -192,7 +192,7 @@ Priority: optional
 Description: WCPulse
 Author: huami
 Name: WCPulse
-Icon: https://i.imgs.ovh/2026/02/03/yHHrS6.png
+Icon: https://binglan8090.github.io/binglan/assets/wechat.png
 
 Package: com.huami.WCPulse
 Version: 1.4-3
@@ -210,7 +210,7 @@ Priority: optional
 Description: WCPulse
 Author: huami
 Name: WCPulse
-Icon: https://i.imgs.ovh/2026/02/03/yHHrS6.png
+Icon: https://binglan8090.github.io/binglan/assets/wechat.png
 
 Package: com.liuf.zfk
 Version: 1.0.0
@@ -602,7 +602,7 @@ Priority: optional
 Description: 微信主题盒子
 Author: WeChat
 Name: 主题盒子
-Icon: https://i.imgs.ovh/2026/02/03/yHHrS6.png
+Icon: https://binglan8090.github.io/binglan/assets/wechat.png
 
 Package: com.tencent.themebox
 Version: 2.2.5
@@ -619,7 +619,7 @@ Priority: optional
 Description: 微信主题盒子
 Author: WeChat
 Name: 主题盒子
-Icon: https://i.imgs.ovh/2026/02/03/yHHrS6.png
+Icon: https://binglan8090.github.io/binglan/assets/wechat.png
 
 Package: com.tiao.linearitycurvecrack
 Version: 1.1-1
