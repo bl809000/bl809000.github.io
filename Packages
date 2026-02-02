@@ -3,7 +3,7 @@ Version: 2.8.1k
 Architecture: iphoneos-arm64
 Maintainer: CyPwn
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: debs/录屏轨迹Touch-Viz.2.8.1k.deb
+Filename: ./debs/录屏轨迹Touch-Viz.2.8.1k.deb
 Size: 708244
 MD5sum: e23662b8cfb186336b6a311c35353f05
 SHA1: 7af5ea733aef31b10762ffcf431cd82cb0d2dc70
@@ -21,7 +21,7 @@ Architecture: iphoneos-arm64
 Maintainer: 搬运工
 Installed-Size: 172
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: debs/禁止代理检测-Rootless.0.1.1-2.deb
+Filename: ./debs/禁止代理检测-Rootless.0.1.1-2.deb
 Size: 13108
 MD5sum: a693c847b4ec74ab617e43199c54da82
 SHA1: dde7643325f33ae167b9fe07b68b106c9297afb9
@@ -39,7 +39,7 @@ Version: 0.2.0
 Architecture: iphoneos-arm64
 Maintainer: 搬运工
 Depends: firmware (>> 11.0)
-Filename: debs/CCMuteModul静音-Rootless.0.2.0.deb
+Filename: ./debs/CCMuteModul静音-Rootless.0.2.0.deb
 Size: 1188
 MD5sum: 3d1b32b6003827b0fa5bcfa19f55698b
 SHA1: c28483fe7947df776a578a2b969636f1718f4c85
@@ -59,7 +59,7 @@ Maintainer: 搬运工
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
-Filename: debs/iCleanerPro小扫把清理垃圾工具-Rootless.7.10.0.deb
+Filename: ./debs/iCleanerPro小扫把清理垃圾工具-Rootless.7.10.0.deb
 Size: 983832
 MD5sum: 6a23ed34c3c4190ac2fbaf3f4611fb63
 SHA1: 8a5ae6b6cbece091ff0b2f290015495f31df41d4
@@ -78,7 +78,7 @@ Architecture: iphoneos-arm64
 Maintainer: Little 34306
 Installed-Size: 388
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0)
-Filename: debs/mineland.2.0-6+debug.deb
+Filename: ./debs/mineland.2.0-6+debug.deb
 Size: 42856
 MD5sum: a4cb54d2c38ecf49de31d0db4d0c90b7
 SHA1: e6324147133e176e36b37abb01c142a19373bf22
@@ -96,7 +96,7 @@ Maintainer: 82Flex
 Installed-Size: 168
 Depends: firmware (>= 14.0)
 Conflicts: com.82flex.singlemute
-Filename: debs/SingleMute静音图标.1.5.deb
+Filename: ./debs/SingleMute静音图标.1.5.deb
 Size: 24812
 MD5sum: f9b1a960b6aa41dd7e82e5e3eb713973
 SHA1: 62b61ba21b2b68fcd3240d590b3e71c52f255527
@@ -115,7 +115,7 @@ Architecture: iphoneos-arm64
 Maintainer: baiy(QQ：961666883)
 Installed-Size: 524
 Depends: mobilesubstrate, firmware (>= 15.0)
-Filename: debs/KeyboardHook.2.1-3+debug.deb
+Filename: ./debs/KeyboardHook.2.1-3+debug.deb
 Size: 44484
 MD5sum: a759f54f7d3d65e1b3836e1486ac8b03
 SHA1: 774a85be768f08d09bbe577b7775d21afac9d379
@@ -131,7 +131,7 @@ Architecture: iphoneos-arm64
 Maintainer: be-huge
 Installed-Size: 3392
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: debs/floatingView.1.5.9.deb
+Filename: ./debs/floatingView.1.5.9.deb
 Size: 664308
 MD5sum: 8990c6487d32a1b093c7cab5bb071a3b
 SHA1: 3e4bb96bab86a5737b652d596e31f18a5e2fede3
@@ -146,7 +146,7 @@ Version: 0.0.1
 Architecture: iphoneos-arm64
 Maintainer: 冰蓝
 Depends: firmware (>= 16.0)
-Filename: debs/com.binglan.8090_0.0.1_iphoneos-arm64.deb
+Filename: ./debs/com.binglan.8090_0.0.1_iphoneos-arm64.deb
 Size: 1028
 MD5sum: f5bf57ff181ff760b0e44d42ed57aece
 SHA1: 7b87949c91d2a914bb5c3ea7d3001da5980c6c31
@@ -164,7 +164,7 @@ Architecture: iphoneos-arm64
 Maintainer: 妖刀
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration
-Filename: debs/CCLess++rootless.2.1.deb
+Filename: ./debs/CCLess++rootless.2.1.deb
 Size: 517364
 MD5sum: f1a094babaa8d3b78531df6b3e68a422
 SHA1: 1020ae74e9c913aed866c79aa76b3a9c912a02dd
@@ -182,7 +182,7 @@ Architecture: iphoneos-arm64
 Maintainer: huami
 Installed-Size: 2224
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.huami.wcpulse_1.4-3_iphoneos-arm64.deb
+Filename: ./debs/com.huami.wcpulse_1.4-3_iphoneos-arm64.deb
 Size: 492518
 MD5sum: 752bb23d13adfa953968596f789200fa
 SHA1: b52092a4dba7a1aa28e53892faf4633c4dc03b10
@@ -199,7 +199,7 @@ Architecture: iphoneos-arm64e
 Maintainer: huami
 Installed-Size: 2224
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.huami.wcpulse_1.4-3_iphoneos-arm64e.deb
+Filename: ./debs/com.huami.wcpulse_1.4-3_iphoneos-arm64e.deb
 Size: 493240
 MD5sum: d8ced85ff7845d336af5923165caf41b
 SHA1: c89c675d49dd96655166a9745fd09fc867b2b040
@@ -216,7 +216,7 @@ Architecture: iphoneos-arm64
 Maintainer: liuf <1602389262>
 Installed-Size: 364
 Depends: mobilesubstrate
-Filename: debs/Liuf's主副卡.1.0.0.deb
+Filename: ./debs/Liuf's主副卡.1.0.0.deb
 Size: 15484
 MD5sum: 60613110f236da300ae0ab96e66682a3
 SHA1: e5847c1617eb08f7a7d34b8af8c1f9f2ce7d8fe8
@@ -234,7 +234,7 @@ Maintainer: zhaonan
 Depends: mobilesubstrate, firmware (>= 14), ws.hbang.common (>= 1.17), com.opa334.ccsupport, preferenceloader
 Conflicts: com.miguelaka95.bettercc
 Provides: com.miguelaka95.bettercc
-Filename: debs/BetterCC.0.0.5-wu.deb
+Filename: ./debs/BetterCC.0.0.5-wu.deb
 Size: 149776
 MD5sum: 02253203270230054ef6aa5fb89c6dec
 SHA1: 23c8de3b5bee656ddf286126f11fe4f1f46aa90b
@@ -254,7 +254,7 @@ Maintainer: zhaonan
 Depends: firmware (>= 10.0)
 Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64
 Provides: ru.domo.cocoatop64
-Filename: debs/CocoaTop64.2.2.3-nan.deb
+Filename: ./debs/CocoaTop64.2.2.3-nan.deb
 Size: 214836
 MD5sum: 53186b66faad761409d987ec1da514f6
 SHA1: ca35a79471b21e08d1704bba236eb9af2bc538e8
@@ -273,7 +273,7 @@ Architecture: iphoneos-arm64
 Maintainer: MoreColor
 Installed-Size: 2168
 Depends: mobilesubstrate
-Filename: debs/MoreColor.1.0.0.1-3.deb
+Filename: ./debs/MoreColor.1.0.0.1-3.deb
 Size: 474520
 MD5sum: a828736034bac23f86645110978f292e
 SHA1: b6774cbf5e3cc9a586d756b3b989a94e12659ac0
@@ -292,7 +292,7 @@ Architecture: iphoneos-arm64
 Maintainer: MrShi
 Installed-Size: 2352
 Depends: mobilesubstrate
-Filename: debs/MrShiRootless.1.0.0.2-235.deb
+Filename: ./debs/MrShiRootless.1.0.0.2-235.deb
 Size: 548920
 MD5sum: ae9f69b1dc5fb27e85d6201ab14e88d4
 SHA1: 48f79375a34ddc5aee2a4bc9e539df9e4394f207
@@ -312,7 +312,7 @@ Maintainer: k
 Installed-Size: 1084
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
 Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
-Filename: debs/OneSettings插件归类.2.2.deb
+Filename: ./debs/OneSettings插件归类.2.2.deb
 Size: 216332
 MD5sum: 8e81171d745abcccb43d9b6c6e0ebdc7
 SHA1: 9a5448763e0a1274a8210ef2bfeb57408f11c6a3
@@ -334,7 +334,7 @@ Depends: mobilesubstrate, firmware (>= 11.0)
 Conflicts: com.ioscreatix.silo
 Replaces: com.ioscreatix.silo
 Provides: com.ioscreatix.silo
-Filename: debs/CCSupport.1.3.13-2.deb
+Filename: ./debs/CCSupport.1.3.13-2.deb
 Size: 58808
 MD5sum: 6dac6425a24c42614b071067b5e791c5
 SHA1: 24a6ccd9b83b429929aa4cb0bf22068de5c0e64a
@@ -353,7 +353,7 @@ Maintainer: opa334
 Installed-Size: 888
 Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
 Conflicts: com.opa334.choicy
-Filename: debs/Choicy禁止注入.1.5.2-2.deb
+Filename: ./debs/Choicy禁止注入.1.5.2-2.deb
 Size: 160232
 MD5sum: 80a630200080c94e17b6ce84afa3f5be
 SHA1: 565a7991c069d98fc41c2ea83ea0ad7853586472
@@ -372,7 +372,7 @@ Architecture: iphoneos-arm64
 Maintainer: Simon
 Installed-Size: 384
 Depends: mobilesubstrate
-Filename: debs/控制中心发光.deb
+Filename: ./debs/控制中心发光.deb
 Size: 24102
 MD5sum: ca0f3464b198d2d0daf7969d988b6633
 SHA1: 0fb875518d06f0117cae89fb7ea28be24265511c
@@ -389,7 +389,7 @@ Architecture: iphoneos-arm64
 Maintainer: simon
 Installed-Size: 428
 Depends: mobilesubstrate, firmware (>= 13.0)
-Filename: debs/控制中心音乐模块动画.1.0.2.deb
+Filename: ./debs/控制中心音乐模块动画.1.0.2.deb
 Size: 35188
 MD5sum: a8c9636cab4230a6ae0379f66080c01c
 SHA1: 1ac22b392fb852df570e6bc4019e318697dd8a82
@@ -406,7 +406,7 @@ Architecture: iphoneos-arm64
 Maintainer: simon
 Installed-Size: 380
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: debs/控制中心天气.deb
+Filename: ./debs/控制中心天气.deb
 Size: 88046
 MD5sum: ccb8784555ec858e62ded0c7ede8e4c3
 SHA1: 138c0c8439a10d605079b96a95ac800ae79ddb2c
@@ -423,7 +423,7 @@ Architecture: iphoneos-arm64
 Maintainer: Simon
 Installed-Size: 432
 Depends: mobilesubstrate
-Filename: debs/灵动岛原生动画PLUS.1.1.7.deb
+Filename: ./debs/灵动岛原生动画PLUS.1.1.7.deb
 Size: 36268
 MD5sum: 90fd7a6e157ccd924d72ecdc28e95292
 SHA1: 83f9851c6c516e450075ff77f7fef28fc980a666
@@ -440,7 +440,7 @@ Architecture: iphoneos-arm64
 Maintainer: SINI
 Installed-Size: 660
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/FolderProrootless.0.0.1-27.deb
+Filename: ./debs/FolderProrootless.0.0.1-27.deb
 Size: 98320
 MD5sum: b758cef6502eee7cca819b2a7e3355f8
 SHA1: de0ff79e0a6e2adb814500ba7d43093972be4c85
@@ -462,7 +462,7 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Filename: debs/SnowBoard.1.5.26-Beta4-rootless.deb
+Filename: ./debs/SnowBoard.1.5.26-Beta4-rootless.deb
 Size: 1258236
 MD5sum: 50a99cd267856d4e38012c1fc5913fa4
 SHA1: 8fc759db5f119fa30cb22308e62c01e605e80dda
@@ -480,7 +480,7 @@ Architecture: iphoneos-arm64
 Maintainer: Spark
 Installed-Size: 440
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
-Filename: debs/SnowBoardDockExtension.1.1.3~Beta4-rootless.deb
+Filename: ./debs/SnowBoardDockExtension.1.1.3~Beta4-rootless.deb
 Size: 30852
 MD5sum: a032cbd9e4e51f623236262be7cc1c2f
 SHA1: 563ec3c9510193eb2a3fc6524e73a022cd14e419
@@ -498,7 +498,7 @@ Architecture: iphoneos-arm64
 Maintainer: Spark
 Installed-Size: 412
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
-Filename: debs/SnowBoardIconEffectsExtension.1.2.2-Beta2-rootless.deb
+Filename: ./debs/SnowBoardIconEffectsExtension.1.2.2-Beta2-rootless.deb
 Size: 33316
 MD5sum: 12aafd7465261e8ea16e1aadb07cb3cf
 SHA1: 02710ef7f32dafd8f2dfd6caa59e0b097a84baa8
@@ -516,7 +516,7 @@ Architecture: iphoneos-arm64
 Maintainer: Spark
 Installed-Size: 340
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
-Filename: debs/SnowBoardIconMasksExtension.1.2.2-Beta2-rootless.deb
+Filename: ./debs/SnowBoardIconMasksExtension.1.2.2-Beta2-rootless.deb
 Size: 18976
 MD5sum: 65f7b60dffac6b02da1f309d7221739e
 SHA1: b997bd7f58bcf76da0001b84a3f4db8bd77d07ee
@@ -534,7 +534,7 @@ Architecture: iphoneos-arm64
 Maintainer: Spark
 Installed-Size: 340
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
-Filename: debs/SnowBoardSettingsIconsExtension.1.0.26~Beta3-rootless.deb
+Filename: ./debs/SnowBoardSettingsIconsExtension.1.0.26~Beta3-rootless.deb
 Size: 17860
 MD5sum: f0d9b45e2ce24dd0e58363bc5389b3b2
 SHA1: 9b1298893c1700feb7d409468c1e2954149a3c8f
@@ -552,7 +552,7 @@ Architecture: iphoneos-arm64
 Maintainer: Spark
 Installed-Size: 476
 Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
-Filename: debs/SnowBoardUIExtension.1.3.0~Beta2-rootless.deb
+Filename: ./debs/SnowBoardUIExtension.1.3.0~Beta2-rootless.deb
 Size: 66280
 MD5sum: f2620d6aa6d4d4722aedb15ad7013482
 SHA1: 91cdcf84f3d3280b2f58947ec099de2e852e282c
@@ -570,7 +570,7 @@ Architecture: iphoneos-arm64
 Maintainer: 苏苏
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
-Filename: debs/com.susu.nopreferencetips_1.0.4_iphoneos-arm64.deb
+Filename: ./debs/com.susu.nopreferencetips_1.0.4_iphoneos-arm64.deb
 Size: 5386
 MD5sum: b9e7e36b4800edff79ce0540e800e81d
 SHA1: d6a55d46e3233007838ecdb4e13a13914f580f89
@@ -585,13 +585,29 @@ Author: 苏苏
 Icon: https://www.susubaby.top/images/Preferences.png
 Name: NoPreferencesTips
 
+Package: com.tencent.themebox
+Version: 2.2.5
+Architecture: iphoneos-arm64
+Maintainer: WeChat
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.tencent.themebox_2.2.5_iphoneos-arm64.deb
+Size: 6640472
+MD5sum: a354141ccf2bba3a5443057e923b8799
+SHA1: ca20958ec24b1dad36612d209fc9e32a7367b329
+SHA256: f982f667a97a1e1f4f268d4805d6b4d60b9b2d043c32a188530eacbb7898c48d
+Section: 微信插件
+Priority: optional
+Description: 微信主题盒子
+Author: WeChat
+Name: 主题盒子
+
 Package: com.tiao.linearitycurvecrack
 Version: 1.1-1
 Architecture: iphoneos-arm64
 Maintainer: Tiao
 Installed-Size: 88
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/LinearityCurveCrack.1.1-1.deb
+Filename: ./debs/LinearityCurveCrack.1.1-1.deb
 Size: 18364
 MD5sum: 81f22d274ba5a4ee44ef431ee978b23d
 SHA1: 6615b3b2210c733750314f0d121c22aa62758ac1
@@ -608,7 +624,7 @@ Architecture: iphoneos-arm64
 Maintainer: TiaoTiao
 Installed-Size: 480
 Depends: mobilesubstrate, firmware (>= 14.0)
-Filename: debs/WXKeyboardUIHook.2.0.deb
+Filename: ./debs/WXKeyboardUIHook.2.0.deb
 Size: 106688
 MD5sum: 4531840f7f036bb70195f18726ebcf53
 SHA1: 4f6099ab1ad474c9ee2f28e317b42cbb67bf696f
@@ -625,7 +641,7 @@ Architecture: iphoneos-arm64
 Maintainer: wkk
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/去除链接模块背景.deb
+Filename: ./debs/去除链接模块背景.deb
 Size: 3952
 MD5sum: 9b07a5b6916c495074a89f0f09200dc3
 SHA1: 18cdcd64ce9826622a6a8536117cbab31e358efb
@@ -642,7 +658,7 @@ Architecture: iphoneos-arm64
 Maintainer: Mr.Zhang <mr_zhang_00@163.com>
 Installed-Size: 3080
 Depends: mobilesubstrate, com.opa334.altlist (>= 1.0.4), preferenceloader
-Filename: debs/FlexLoader.5.25.19-1.deb
+Filename: ./debs/FlexLoader.5.25.19-1.deb
 Size: 671008
 MD5sum: 3d57fa9ab6d6a495b91385a19a1121b3
 SHA1: 81a32d77de16db6dd36e4ddaf2d6112f27cd5668
@@ -660,7 +676,7 @@ Architecture: iphoneos-arm64
 Maintainer: wkk
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.7000), firmware (>= 14.0)
-Filename: debs/HideLockMusic.1.0.deb
+Filename: ./debs/HideLockMusic.1.0.deb
 Size: 3176
 MD5sum: 46d1012776074aa45e546fc1b4b82ee4
 SHA1: 2b887f861a3da89c13255e100927285f309820a8
@@ -677,7 +693,7 @@ Version: 4.0
 Architecture: iphoneos-arm64
 Maintainer: wkk
 Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Filename: debs/红包气泡制作终端自用.4.0.deb
+Filename: ./debs/红包气泡制作终端自用.4.0.deb
 Size: 1692
 MD5sum: 1af61f26509265fa2c7ff7685c30e1ab
 SHA1: 61eef8412fdd6455bbbe3f3bb14e0d2930b23c3b
@@ -694,7 +710,7 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: wkk
 Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Filename: debs/iPhoneOS16.5.sdk.1.0.deb
+Filename: ./debs/iPhoneOS16.5.sdk.1.0.deb
 Size: 928
 MD5sum: ff38b66ac2891eb2b539ab3afc00634a
 SHA1: d129e17c2e43cbd475bd2115fa8861fbd414c76a
@@ -712,7 +728,7 @@ Architecture: iphoneos-arm64
 Maintainer: wkk
 Depends: mobilesubstrate, firmware (>= 15.0)
 Replaces: com.lclrc.hammerit, com.jontelang.snapper3, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.squidforce.snapper3.plugins
-Filename: debs/Snapper3美化.1.1-1.deb
+Filename: ./debs/Snapper3美化.1.1-1.deb
 Size: 21740
 MD5sum: 5bc7f8066fa37d0869e6e8bec0dc947e
 SHA1: c5839bfc58d21443699288b1c72815716113faed
@@ -731,7 +747,7 @@ Architecture: iphoneos-arm64e
 Maintainer: 预言小猫
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Filename: debs/com.wkk.tweaktool_2.0.0-beta_iphoneos-arm64e.deb
+Filename: ./debs/com.wkk.tweaktool_2.0.0-beta_iphoneos-arm64e.deb
 Size: 11168
 MD5sum: 6a5491ad0e4caba7b20360628ebc4b28
 SHA1: f5b15996f321bd622015428d8cb8ca42c64a57d6
@@ -748,7 +764,7 @@ Version: 2.0.0-beta
 Architecture: iphoneos-arm64
 Maintainer: 预言小猫
 Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Filename: debs/一键备份和恢复工具.2.0.0-beta.deb
+Filename: ./debs/一键备份和恢复工具.2.0.0-beta.deb
 Size: 10448
 MD5sum: dec78f5fd8ec9e9546e613f861b57fef
 SHA1: eed67b15680a71c44087608cfb7c5896016522ad
@@ -765,7 +781,7 @@ Version: 2.0.0-beta
 Architecture: iphoneos-arm64
 Maintainer: 预言小猫
 Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Filename: debs/com.wkk.tweaktool_2.0.0-beta_iphoneos-arm64.deb
+Filename: ./debs/com.wkk.tweaktool_2.0.0-beta_iphoneos-arm64.deb
 Size: 10452
 MD5sum: 952ce521873eab5dee2536f766cdeecf
 SHA1: a901807c622ecd322aeb281b8bf8ec54f5844b7a
@@ -783,7 +799,7 @@ Architecture: iphoneos-arm64
 Maintainer: zqbb
 Installed-Size: 96
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/HelloShadow.1.1.deb
+Filename: ./debs/HelloShadow.1.1.deb
 Size: 9468
 MD5sum: 84b75ebb7edcb7a93e983ebdf99c00a0
 SHA1: 701fc4ee572891de8915d37b12d7377a446a9c4c
@@ -804,7 +820,7 @@ Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
 Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
 Conflicts: ws.hbang.newterm, ws.hbang.newterm2
 Replaces: ws.hbang.newterm, ws.hbang.newterm2
-Filename: debs/NewTerm3Beta.3.0~beta1-3+debug.deb
+Filename: ./debs/NewTerm3Beta.3.0~beta1-3+debug.deb
 Size: 3942908
 MD5sum: e042a3058d4276c2ae1847394ba21958
 SHA1: b6ffee2f872acb32affae97b8c7a1ceeef9bf971
