@@ -305,24 +305,6 @@ Depiction: http://test.test.com/depictions/?p=com.niceios.morecolor
 Name: MrShi(Rootless)
 Sileodepiction: http://test.test.com/sileodepictions/com.niceios.morecolor/depiction.json
 
-Package: com.nightwind.horizontalsliders
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: Nightwind
-Installed-Size: 172
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
-Filename: debs/com.nightwind.horizontalsliders_0.0.1_iphoneos-arm64.deb
-Size: 10644
-MD5sum: 9a8bec2e5ffb8fce0a1f37fffe280200
-SHA1: e90afaf4bee06c32013cc30ab851b181ed1f3920
-SHA256: 6c7fe955c68ddd2e42f3ef9a2d5edde2a7cbebc51812519186cf531dd580a62e
-Section: 系统美化
-Priority: 0
-Description: 使控制中心的亮度和音量滑块水平滑动。
-Author: Nightwind
-Icon: https://qi-ting-zhang.github.io/sileo/images/icon/sphk.png
-Name: 水平滑块
-
 Package: com.onesettings
 Version: 2.2
 Architecture: iphoneos-arm64
