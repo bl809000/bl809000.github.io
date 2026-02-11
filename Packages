@@ -723,6 +723,41 @@ Description: An awesome MobileSubstrate tweak!
 Author: wkk
 Name: cccchook
 
+Package: com.wkk.centra
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.wkk.centra_1.0_iphoneos-arm64.deb
+Size: 54608
+MD5sum: 0baf126a857a5f6b1c79242f89d6a0a2
+SHA1: 5414a06d54f791062b8cf7e11fafcc098281fc4e
+SHA256: 2621894300e8e83ab98f2261455d8afc0f65b91229bd68f7083a9923df5166e3
+Section: 系统美化
+Priority: 0
+Description: 自定义控制中心中模块的大小，可以把音量亮度模块改成1*1等等，已汉化。
+Author: Hitori
+Icon: https://s1.imagehub.cc/images/2026/01/03/45c813cd5bca7231780f69d89d0f25e3.png
+Name: Centra
+
+Package: com.wkk.centra
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.wkk.centra_1.0_iphoneos-arm64e.deb
+Size: 63424
+MD5sum: 4ecb5d7c81ec51a254ff757c5cc4a207
+SHA1: 0a55f98ad8917af4e328e51db8c9825f81abc52d
+SHA256: a6ff0f90ecd8fe38295bdf01fd913deb9697eb0e8418048367d463b4667727c6
+Section: 系统美化
+Priority: 0
+Description: 自定义控制中心中模块的大小，可以把音量亮度模块改成1*1等等，已汉化。
+Author: Hitori
+Icon: https://s1.imagehub.cc/images/2026/01/03/45c813cd5bca7231780f69d89d0f25e3.png
+Name: Centra
+
 Package: com.wkk.flexloader
 Version: 5.25.19-1
 Architecture: iphoneos-arm64
