@@ -159,6 +159,7 @@ Author: be-huge
 Name: floatingView
 
 Package: com.deb.1314
+SileoDepiction: https://bl809000.github.io/sileo-depiction/com.deb.1314.json
 Version: 0.0.1
 Architecture: iphoneos-arm64
 Maintainer: 冰蓝
