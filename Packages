@@ -872,12 +872,35 @@ Version: 4.0
 Architecture: iphoneos-arm64
 Maintainer: wkk
 Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: ./debs/com.wkk.qipao_4.0_iphoneos-arm64.deb
+Size: 2124
+MD5sum: 0ec3b939b9315090964db216baadf4dc
+SHA1: d78f46a93eec492703e7c26c5b62467487df07be
+SHA256: 8bbd57e4eab9537012eb967381994830f3cc9e5044df1974f6632863dce3f8ac
+Section: 配置
+Priority: 0
+Description: 下载后文件在目录/var/mobile/Documents/气泡制作.sh
+  * 使用方法如下（新建文件夹）
+  * 我方气泡.png
+  * 对方气泡.png
+  * 红包气泡.png
+  * 礼物气泡.png
+  * 点击运行终端即可（1.0初始版本，2.0补全红包气泡，3.0增加礼物气泡，4.0补全我方对方气泡）
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/01/10/0458f7f83190b2b17070085595312c2b.jpeg
+Name: 红包气泡制作终端(自用)
+
+Package: com.wkk.qipao
+Version: 4.0
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
 Filename: ./debs/红包气泡制作终端自用.4.0.deb
 Size: 1692
 MD5sum: 1af61f26509265fa2c7ff7685c30e1ab
 SHA1: 61eef8412fdd6455bbbe3f3bb14e0d2930b23c3b
 SHA256: be6115fd21f598f9d23d6bbd399b0211c2f26ab91acc1149a4b6be6bc5f43145
-Section: 插件
+Section: 配置
 Priority: 0
 Description: 下载后文件在目录/var/mobile/Documents/气泡制作.sh
 Author: wkk
