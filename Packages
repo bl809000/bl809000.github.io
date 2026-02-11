@@ -912,7 +912,46 @@ Size: 21740
 MD5sum: 5bc7f8066fa37d0869e6e8bec0dc947e
 SHA1: c5839bfc58d21443699288b1c72815716113faed
 SHA256: a049be7b23ada876685955609a1283ace11d3523c18e6c284030b30cda6f1349
-Section: 插件
+Section: 配置
+Priority: 0
+Description: 纯文字美化。
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/02/27/f9eb963b7be6a61103d287689931b7d7.png
+Name: Snapper3美化
+Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/snapper3.json
+
+Package: com.wkk.snapper31
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Depends: mobilesubstrate, firmware (>= 15.0)
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3,byg.iosios.net.bigshotsnapper3plugin,com.dao.bigshotsnapper3plugin,com.squidforce.snapper3.plugins
+Filename: ./debs/com.wkk.snapper31_1.1-1_iphoneos-arm64.deb
+Size: 21776
+MD5sum: 2eb306b8917febfff51cc47055a7b99a
+SHA1: 31d274e2b0480359f978755e6b85d6e4b738148b
+SHA256: 6808f36e4155450544bda46f4ede3cf211bb6ab931fdfbc8ad0ececef655c50e
+Section: 配置
+Priority: 0
+Description: 纯文字美化。
+Author: wkk
+Icon: https://s1.imagehub.cc/images/2025/02/27/f9eb963b7be6a61103d287689931b7d7.png
+Name: Snapper3美化
+Sileodepiction: https://raw.githubusercontent.com/Wkkyy00/SileoDepiction/refs/heads/main/snapper3.json
+
+Package: com.wkk.snapper31
+Version: 1.1-1
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, firmware (>= 15.0)
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3,byg.iosios.net.bigshotsnapper3plugin,com.dao.bigshotsnapper3plugin,com.squidforce.snapper3.plugins
+Filename: ./debs/com.wkk.snapper31_1.1-1_iphoneos-arm64e.deb
+Size: 23800
+MD5sum: 21fde9a5d17de7e226467640170a62da
+SHA1: a41c21be42a737b5c91da933eab609b69f156861
+SHA256: 45ef2e1ee6a21ae0fc5703e325055c6c3d1a3fd97ee2ec4baced2515b38d86f6
+Section: 配置
 Priority: 0
 Description: 纯文字美化。
 Author: wkk
