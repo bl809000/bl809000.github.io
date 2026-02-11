@@ -15,7 +15,10 @@ fi
 REPO_DIR="/var/mobile/binglan"
 DEBS_FOLDER="debs"
 OVERRIDE_FILE="override" # 定义覆盖文件名称
-REMOTE_URL="https://github.com/binglan8090/binglan.git"
+
+# ✅ [修改点1] 这里更新为你的新仓库地址
+REMOTE_URL="https://github.com/bl809000/bl809000.github.io.git"
+
 TOKEN_FILE="/var/mobile/.gh_token"
 # ===================
 
@@ -34,11 +37,13 @@ touch "$OVERRIDE_FILE" # 确保 override 文件存在
 
 git config --global --add safe.directory "$REPO_DIR" 2>/dev/null || true
 git config --global --add safe.directory "/private$REPO_DIR" 2>/dev/null || true
+
+# ✅ 脚本会自动把本地仓库的“目的地”修正为新地址
 git remote set-url origin "$REMOTE_URL"
 git pull --rebase || true
 
 echo "[1/7] 正在处理插件包..."
-# 使用临时文件存储文件列表，防止 while read 吞掉输入流
+# 使用临时文件存储文件列表
 TMP_LIST=$(mktemp)
 find "$SRC_DIR" -maxdepth 1 -type f -name "*.deb" > "$TMP_LIST"
 
@@ -77,7 +82,6 @@ while IFS= read -r f; do
   echo "7) 保留原始分类 ($orig_section)"
   echo "8) 手动输入新分类"
   
-  # 读取用户输入 (从 /dev/tty 读取，防止中断循环)
   printf "请输入序号 [1-8]: "
   read -r choice < /dev/tty
 
@@ -88,29 +92,24 @@ while IFS= read -r f; do
     4) TARGET_SECTION="滑雪板" ;;
     5) TARGET_SECTION="调整" ;;
     6) TARGET_SECTION="配置" ;;
-    7) TARGET_SECTION="" ;; # 空代表不修改，使用原始
+    7) TARGET_SECTION="" ;;
     8) 
        printf "请输入分类名称: "
        read -r custom_sec < /dev/tty
        TARGET_SECTION="$custom_sec"
        ;;
-    *) TARGET_SECTION="插件" ;; # 默认选 1
+    *) TARGET_SECTION="插件" ;;
   esac
 
-  # 如果用户选择了修改分类 (不为空)
   if [ -n "$TARGET_SECTION" ]; then
       echo "✅ 已设定分类为: $TARGET_SECTION"
-      # 更新 override 文件：先删除旧记录，再添加新记录
-      # 格式: Package Priority Section
       grep -v "^$pkg_id " "$OVERRIDE_FILE" > "${OVERRIDE_FILE}.tmp" && mv "${OVERRIDE_FILE}.tmp" "$OVERRIDE_FILE"
       echo "$pkg_id 0 $TARGET_SECTION" >> "$OVERRIDE_FILE"
   else
       echo "👌 保持原始分类: $orig_section"
-      # 如果选择保留原始，也要清理掉 override 里可能的旧记录，以免干扰
       grep -v "^$pkg_id " "$OVERRIDE_FILE" > "${OVERRIDE_FILE}.tmp" && mv "${OVERRIDE_FILE}.tmp" "$OVERRIDE_FILE"
   fi
 
-  # 复制文件
   echo "  + 复制到仓库..."
   cp -f "$f" "$dst"
 
@@ -118,7 +117,6 @@ done < "$TMP_LIST"
 rm -f "$TMP_LIST"
 
 echo "[2/7] 生成 Packages 索引 (带 Override)"
-# ⚠️ 这里加入了 "$OVERRIDE_FILE" 参数
 dpkg-scanpackages -m "./$DEBS_FOLDER" "$OVERRIDE_FILE" > Packages
 
 echo "[3/7] 压缩索引文件"
@@ -159,7 +157,8 @@ case "$ans" in
     fi
 
     echo "正在推送..."
-    PUSH_URL="https://binglan8090:${TOKEN}@github.com/binglan8090/binglan.git"
+    # ✅ [修改点2] 推送 URL 也同步更新为 bl809000
+    PUSH_URL="https://bl809000:${TOKEN}@github.com/bl809000/bl809000.github.io.git"
     
     if git push "$PUSH_URL"; then
         echo "✅ 推送成功！"
