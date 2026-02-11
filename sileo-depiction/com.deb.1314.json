@@ -9,8 +9,58 @@
       "tabname": "详情",
       "views": [
         {
+          "class": "DepictionHeaderView",
+          "title": "🎉 惊喜彩蛋"
+        },
+        {
           "class": "DepictionMarkdownView",
-          "markdown": "## 哈喽！\n\n恭喜你来到彩蛋界面！愿你的每一天都充满阳光，每一刻都洋溢幸福，每一分都满载希望，每一秒都充满微笑。祝福你，生活美满，快乐无限！"
+          "markdown": "恭喜你来到彩蛋界面！\n\n> 愿你的每一天都充满阳光，每一刻都洋溢幸福，每一分都满载希望，每一秒都充满微笑。\n\n祝福你，生活美满，快乐无限！"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "基本信息"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "开发者",
+          "text": "冰蓝"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "0.0.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "更新日期",
+          "text": "2026-02-11"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "支持与联系"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "微信 (WeChat)",
+          "text": "binglangmail",
+          "action": "weixin://"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "长按上方微信号即可复制",
+          "textColor": "#999999",
+          "fontSize": 13,
+          "alignment": 1
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
         }
       ]
     }
