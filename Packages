@@ -936,7 +936,7 @@ Size: 13950
 MD5sum: 365615def5cc2fd731855d615af8467d
 SHA1: 3966fc85c4ca7e2c9155e0faa6fd3a672c52f59b
 SHA256: 68923ab4fd1292f5d63d579b3f47171ba562737bf25a239b3d2fb1ad5b2cbaa5
-Section: 系统美化
+Section: ------------------------------------------------
 Priority: 0
 Description: 将控制中心的亮度和音量滑块横过来。
 Author: Nightwind
@@ -954,7 +954,7 @@ Size: 10592
 MD5sum: e50704488203f128ac085da0cc40bcdb
 SHA1: 14b0e0f99514c82fe880db89e1b287fccce61ac0
 SHA256: 45b15c3ed8b08a804cd9838e67c4b73d07af0e380e9d735d5a937aeed06e44b1
-Section: 系统美化
+Section: ------------------------------------------------
 Priority: 0
 Description: 将控制中心的亮度和音量滑块横过来。
 Author: Nightwind
