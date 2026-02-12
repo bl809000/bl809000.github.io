@@ -15,24 +15,6 @@ Author: 来一杯82年的拉菲
 Icon: https://repo.cypwn.xyz/packages/TouchViz-Rootless/icon.png
 Name: 录屏轨迹Touch-Viz
 
-Package: byg.iosios.net.checkproxybypass-rootless
-Version: 0.1.1-2
-Architecture: iphoneos-arm64
-Maintainer: 搬运工
-Installed-Size: 172
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debs/禁止代理检测-Rootless.0.1.1-2.deb
-Size: 13108
-MD5sum: a693c847b4ec74ab617e43199c54da82
-SHA1: dde7643325f33ae167b9fe07b68b106c9297afb9
-SHA256: 4391896959d19a5b13660a1b4e4b35fdc29089adb1bcb3bbb278b4d6e48f41bb
-Section: 杂七杂八
-Description: 去除app抓包检测,安装之后在设置里面开启,有问题可以进群反馈！
-Author: zxc
-Icon: https://chinesebuilding.club/pic/cydia.png
-Name: 禁止代理检测-Rootless
-Sponsor: 搬运工
-
 Package: byg.iosios.net.enableccmutemodule
 Version: 0.2.0
 Architecture: iphoneos-arm64
