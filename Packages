@@ -294,9 +294,33 @@ Size: 149776
 MD5sum: 02253203270230054ef6aa5fb89c6dec
 SHA1: 23c8de3b5bee656ddf286126f11fe4f1f46aa90b
 SHA256: 9624f151f4cea9ba28b9cc38ded63cd65c18f1e7ce42994c28769b2b06d30936
-Section: 插件
+Section: 系统美化
 Priority: 0
 Description: Customize your Control Center!
+Author: Miguelaka95 <miguelaka95@gmail.com>
+Icon: https://invalidunit.github.io/sileodepiction/com.nan.bettercc/image.png
+Name: BetterCC
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bettercc/js.json
+
+Package: com.nan.bettercc
+Version: 0.0.5-wu
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: mobilesubstrate, firmware (>= 14), ws.hbang.common (>= 1.17), com.opa334.ccsupport, preferenceloader
+Conflicts: com.miguelaka95.bettercc
+Provides: com.miguelaka95.bettercc
+Filename: ./debs/com.nan.bettercc_0.0.5-wu_iphoneos-arm64.deb
+Size: 150056
+MD5sum: 74c0d846b96fd217ec4e7c087d9276ed
+SHA1: ffc990b6d43c29ec59d85aecf6369c6d0d5cfab2
+SHA256: e0ac98c163bf99dc8d3dfcf18cb2e9123e33dea82092bb3d0e93563da7397a2c
+Section: 系统美化
+Priority: 0
+Description: Customize your Control Center!
+ Invisible Modules.
+ Rearrange Connectivity Toggles.
+ Change Modules Size.
+ Weather Widget.
 Author: Miguelaka95 <miguelaka95@gmail.com>
 Icon: https://invalidunit.github.io/sileodepiction/com.nan.bettercc/image.png
 Name: BetterCC
