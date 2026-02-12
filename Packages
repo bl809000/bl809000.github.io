@@ -72,23 +72,6 @@ Icon: https://chinesebuilding.club/pic/cydia.png
 Name: iCleaner Pro小扫把清理垃圾工具-Rootless
 Sponsor: 搬运工
 
-Package: com.21.d
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: 1
-Installed-Size: 384
-Depends: mobilesubstrate
-Filename: ./debs/com.21.d_0.0.1_iphoneos-arm64.deb
-Size: 10488
-MD5sum: d3c1ad6b8c44073eb7dca8994b7e10a6
-SHA1: 76aed6ce1da818b212e39d17c91b2984f7435027
-SHA256: fc18047144973f811a89855155509d207c2ae8a7a75a3bb85fa531b5e4fbf89b
-Section: 系统美化
-Priority: 0
-Description: 音量亮度 2×1
-Author: 1
-Name: 音量亮度 2×1
-
 Package: com.34306.mineland
 Version: 2.0-6+debug
 Architecture: iphoneos-arm64
@@ -159,7 +142,6 @@ Author: be-huge
 Name: floatingView
 
 Package: com.deb.1314
-SileoDepiction: https://bl809000.github.io/sileo-depiction/com.deb.1314.json
 Version: 0.0.1
 Architecture: iphoneos-arm64
 Maintainer: 冰蓝
