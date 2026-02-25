@@ -129,14 +129,14 @@ Maintainer: 冰蓝&花花
 Installed-Size: 712
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Filename: ./debs/com.binglan.85_1.0.0_iphoneos-arm64.deb
-Size: 28685672
-MD5sum: 0bb81e7cd0e47df4d7150626ab1e2aa6
-SHA1: 624482a08f3b214fab53affc4a8ed0e125c9b149
-SHA256: cf57e674151899b722e74060df3c32b46bfbb5725ab2b4bc7f372273c4e560cf
+Size: 28685504
+MD5sum: de5c8543f9b6758b5a2e823c746317e6
+SHA1: d8386ce6d67893b0fb7ebf318376bef2870428d2
+SHA256: fc48bc49b9a52ee02d27a45fa96a273c86cda61d5b4037c6c8227fb8da1ab96c
 Section: 调整
 Priority: 0
 Description: iOS原生字体大小调整（85）。
- 此插件用于将系统原生字体大小调整为85。使用前确保多巴胺已挂载/System/Library/Fonts 路径。安装后前往多巴胺点击重启用户空间生效。
+ 此插件用于将系统原生字体大小调整为85并加粗一丢丢。使用前确保多巴胺已挂载/System/Library/Fonts 路径。安装后前往多巴胺点击重启用户空间生效。
 Name: iOS16原生字体（85）
 
 Package: com.deb.1314
