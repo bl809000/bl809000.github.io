@@ -122,6 +122,23 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
+Package: com.binglan.85
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: 冰蓝&花花
+Installed-Size: 712
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/com.binglan.85_1.0.0_iphoneos-arm64.deb
+Size: 28685672
+MD5sum: 0bb81e7cd0e47df4d7150626ab1e2aa6
+SHA1: 624482a08f3b214fab53affc4a8ed0e125c9b149
+SHA256: cf57e674151899b722e74060df3c32b46bfbb5725ab2b4bc7f372273c4e560cf
+Section: 调整
+Priority: 0
+Description: iOS原生字体大小调整（85）。
+ 此插件用于将系统原生字体大小调整为85。使用前确保多巴胺已挂载/System/Library/Fonts 路径。安装后前往多巴胺点击重启用户空间生效。
+Name: iOS16原生字体（85）
+
 Package: com.deb.1314
 SileoDepiction: https://bl809000.github.io/sileo-depiction/com.deb.1314.json
 Version: 0.0.1
